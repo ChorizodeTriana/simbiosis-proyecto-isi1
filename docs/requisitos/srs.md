@@ -271,6 +271,9 @@ enlazar a los términos de esta sección, pero no los definirá de nuevo.
 | Nutricionista | Rol profesional acreditado, común para médicos y nutricionistas, que puede publicar y validar recetas. | A3 s1.2, s1.3 y 3 |
 | Acreditación profesional | Procedimiento por el que una persona demuestra su condición profesional para actuar como nutricionista. | A3 s1.3 |
 | Receta aceptada | receta adecuada al perfil, las alergias o las restricciones alimentarias de un paciente. La plataforma no modifica automáticamente sus ingredientes o cantidades. | DVA s1.1 y 2.1, A3 s3 |
+| Coordinador | Usuario responsable de supervisar la actividad en la plataforma. Gestiona reportes de contenido inadecuado, aplica reglas de uso, apoya el correcto funcionamiento de la comunidad y gestiona cuentas de usuario, incluida la aprobación, suspensión y eliminación de cuentas. La adscripción organizativa del coordinador se decidirá en la fase de despliegue. | DVA  3.1  |
+| Cuidadores | Familiares o profesionales que asisten a los pacientes en la gestión de su dieta, actuando como usuarios secundarios que buscan y administran recetas en nombre de los pacientes | DVA  3.1 |
+
 
 ## 10. Modelos de análisis
 
