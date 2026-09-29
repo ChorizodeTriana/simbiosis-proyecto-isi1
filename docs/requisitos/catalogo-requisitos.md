@@ -278,7 +278,20 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 
 | ID | Categoría y atributo | Requisito no funcional | Ámbito (Global/Local) | UR/FR relacionados | Método de comprobación | Estado |
 | --- | --- | --- | --- | --- | --- | --- |
-| NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
+| NFR-01 |NFR-Q (Disponibilidad) |La plataforma alcanzará una disponibilidad mínima del 99.5% en cada mes natural.| G | NFR  | Mediante comprobaciones externas cada 5 minutos | - |
+
+| NFR-02 |NFR-Q (Seguridad, Disponibilidad) |La plataforma realizará al menos una copia de seguridad de la información de salud y de las recetas.| G | NFR  | Mediante un programa de copias de seguridad a diario | - |
+
+| NFR-03 |NFR-Q (Disponibilidad) |La plataforma comprobará las copias de seguridad y si sirven para cuando se necesiten| G | NFR  | Mediante una prueba de restauración al menos una vez cada tres meses| - |
+
+| NFR-04 |NFR-Q (Mantenibilidad) |La plataforma realizará los mantenimientos planificados, siempre que sea posible, entre las 02:00 y las 06:00, hora peninsular española.| G | NFR  | Mediante anuncios con al menos 48 horas de antelación | - |
+
+| NFR-05 |NFR-Q (Seguridad) |El sistema deja fuera de alcance los dietéticos automáticos, el seguimiento de la alimentación, los diarios de alimentación y las recomendaciones médicas o clínicas automáticas.| G | NFR  | Mediante comprobaciones y pruebas al hacerlo | - |
+
+| NFR-06 |NFR-Q (Seguridad) |Los datos de salud del paciente tendrán carácter privado. | G | NFR  | Mediante contraseñas y seguridad en el programa | - |
+
+| NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | NFR  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
+
 
 Categorías y atributos: 
 1) Requisitos de calidad (NFR-Q): Rendimiento, Usabilidad, Seguridad, Fiabilidad, Disponibilidad, Modificabilidad, Portabilidad, Eficiencia, Escalabilidad, Verificabilidad / Testabilidad, Robustez, Seguridad funcional (safety), Integridad, Reusabilidad, Instalabilidad.
