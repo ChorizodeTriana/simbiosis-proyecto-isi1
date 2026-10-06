@@ -28,7 +28,14 @@ Registra los roles externos que participan en las funciones representadas. Un ac
 
 | Nombre del actor | Rol que representa |
 | --- | --- |
-| [Nombre] | [Describe el rol externo.] |
+| Usuario no registrado | El usuario no registrado podrá registrarse. |
+| Usuario | El usuario podrá gestionar su perfil en la plataforma, actualizando datos personales y de contacto cuando lo requiera también podrá buscar recetas en la plataforma. |
+| Usuario registrado | El usuario podrá participar en un foro colaborativo y crear recetas en la plataforma. |
+| Paciente | El paciente podrá introducir y gestionar sus datos fisiológicos y de salud. |
+| Nutricionista | El nutricionista podrá crear y publicar consejos de vida saludable y adjuntarles recursos adicionales en formato PDF o audio. |
+
+
+
 
 Mantén los mismos nombres en las tablas, los diagramas y las descripciones.
 
@@ -58,9 +65,9 @@ Para cada vista, incluye un título, una frase sobre su alcance y el diagrama. T
 
 **Título:** [Indica el título de la vista.]
 
-**Alcance:** [Explica qué funciones representa esta vista.]
+**Alcance:** Registro gestion de perfiles y ayuda
 
-[Inserta aquí el diagrama.]
+![Casos de uso de acceso cuentas y ayuda](imagenes/casos-de-uso-acceso-cuentas-ayuda.png)
 
 Si una decisión necesita aclaración, puedes añadir una nota breve junto al diagrama.
 
