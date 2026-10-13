@@ -48,6 +48,14 @@ Registra los casos que aparecen en el modelo. Asigna a cada caso un identificado
 | Identificador | Nombre | Objetivo | Participantes |
 | --- | --- | --- | --- |
 | [UC-…] | [Nombre] | [Explica el objetivo.] | [Indica los actores que participan.] |
+| UR-12 | Navegar en la guía | El usuario podrá navegar libremente entre los distintos módulos o temas de la guía interactiva | El usuario |
+| UR-12 | Interactuar con la guía | El usuario podrá pausar, reanudar o salir de la guía interactiva en cualquier momento. | El usuario |
+| UR-12 | Volver a la guía | El usuario podrá registrar el progreso en la guía interactiva, permitiéndole reanudar desde el punto donde la dejó en sesiones anteriores. | El usuario |
+| UR-12 | Buscar en la guía | El usuario podrá buscar temas específicos dentro de la guía interactiva mediante palabras clave | El usuario |
+| UR-13 | Aprobar cuentas | El coordinador podrá aprobar nuevas cuentas de cuidador y de nutricionista desde el panel de gestión de inscripciones | El cooordinador |
+| UR-13 | Suspender cuentas | El cooordinador podrá suspender cuentas de usuario activas desde el panel de gestión de inscripciones. | El cooordinador |
+| UR-13 | Eliminar cuentas | El cooordinador podrá eliminar cuentas de usuario desde el panel de gestión de inscripciones. | El cooordinador |
+
 
 [Indica los actores que participan. Si procede, distingue el actor principal, que busca alcanzar el objetivo del caso de uso y normalmente inicia la interacción, de los actores de apoyo, que proporcionan servicios o información al sistema.]
 
